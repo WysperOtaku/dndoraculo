@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="view.js"></script>
+    <script src="controller.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="scene-container">
+        <div class="buttons-container">
+            <button class="button" id="button1">Boton 1</button>
+            <div class="scenario"><img id="scenario-img" src="#"></div>
+            <button class="button" id="button2">Boton 1</button>
+        </div>
+        <div id="terminal" class="terminal"></div>
+    </div>
+    <div class="char-stats-container" id="personaje">
+        <div class="stats-container">
+            <ul class="stats">
+                <li>Nombre: <input type="text" class="char-input nombre" id="nombre"></li>
+                <li>Raza:</li>
+                <li>Edad: <input type="text" class="char-input edad"></li>
+                <li>Experiencia:</li>
+                <li>Puntos de golpe</li>
+                <li>Clase de armadura</li>
+                <li>Iniciativa</li>
+                <li>Estadisticas
+                    <ul>
+                        <li>Fuerza</li>
+                        <li>Destreza</li>
+                        <li>Constitución</li>
+                        <li>Inteligencia</li>
+                        <li>Sabiduría</li>
+                        <li>Carisma</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="equipment-container">
+            <ul class="equipment">
+                <!--EMPTY POR DEFECTO-->
+                <li>Sin equipamiento</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
